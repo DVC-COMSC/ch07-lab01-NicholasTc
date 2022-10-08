@@ -8,13 +8,13 @@ total = 0
 # taking user input
 for i in range(5):
     num = int(input())
-    numList.append(num)
+    numbers.append(num)
 
 # processing the list
-minNum = min(numList)
-maxNum = max(numList)
+minNum = min(numbers)
+maxNum = max(numbers)
 
-for n in numList:
+for n in numbers:
     total += n
 
 total = total - (minNum + maxNum)
